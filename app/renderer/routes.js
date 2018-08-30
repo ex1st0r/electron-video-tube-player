@@ -1,12 +1,11 @@
 import React from 'react'
 import { Switch, Route } from 'react-router'
 
-import LoginPage from './containers/LoginPage'
-import LoggedInPage from './containers/LoggedInPage'
+import { SeriesList, SeriesVideo } from './components'
 
 export default (
   <Switch>
-    <Route exact path="/" component={LoginPage} />
-    <Route exact path="/loggedin" component={LoggedInPage} />
+    <Route exact path="/" component={SeriesList} />
+    <Route exact path="/playVideo" component={SeriesVideo} />
   </Switch>
 )

@@ -5,7 +5,7 @@
         "electron": "1.8"
       },
       "useBuiltIns": true
-    }], "react"
+    }], "react", "flow"
   ],
   "plugins": [
     "transform-decorators-legacy",
